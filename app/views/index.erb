@@ -1,0 +1,11 @@
+<h1>"INDEX" PAGE</h1>
+
+<div class="index-container">
+
+  <% @articles.each do |article| %>
+    <div class="index-tile">
+      <p> Name: <%= article.title  %> </p>
+    </div>   
+  <% end %>
+  
+</div>
